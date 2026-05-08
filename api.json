@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/caipora",
     "maintainers": [
       {
@@ -16,72 +16,134 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "caipora",
     "name": "Caipora",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Caapora", "language": "Tupi-Guarani", "region": "Brazil" },
+      { "name": "Caypora", "language": "Tupi-Guarani", "region": "Brazil" },
+      { "name": "Ka'a Pora", "language": "Tupi-Guarani", "region": "Brazil", "meaning": "Inhabitant of the forest" },
+      { "name": "Caboclinha", "region": "Brazil", "meaning": "Little caboclo girl form" },
+      { "name": "Caipora do Mato", "region": "Brazil" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Forest guardian spirit",
+    "tags": [
+      "spirit",
+      "forest-guardian",
+      "brazil",
+      "tupi-guarani",
+      "south-america",
+      "wildlife-protector",
+      "shapeshifter",
+      "folklore"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Caipora (also spelled Caapora, Caypora, or Ka'a Pora, meaning \\\"dweller of the forest\\\" or \\\"inhabitant of the woods\\\" in Tupi-Guarani) is one of Brazil's most important forest guardian entities, deeply rooted in Indigenous Tupi-Guarani mythology and now integrated into broader Brazilian folklore.",
-      "full": "The Caipora (also spelled Caapora, Caypora, or Ka'a Pora, meaning \\\"dweller of the forest\\\" or \\\"inhabitant of the woods\\\" in Tupi-Guarani) is one of Brazil's most important forest guardian entities, deeply rooted in Indigenous Tupi-Guarani mythology and now integrated into broader Brazilian folklore. As a powerful protector of wildlife and forests, the Caipora represents the spiritual embodiment of nature's balance and the consequences of ecological disrespect. Unlike many forest spirits that are universally malevolent, the Caipora operates on a code of reciprocity and respect. This entity punishes those who hunt excessively, disrespect the forest, or take more than they need, while allowing respectful hunters who follow traditional protocols to succeed. The Caipora's role has evolved from ancient Indigenous belief to become a powerful symbol in contemporary Brazilian environmental movements. The entity is closely associated with—but distinct from—the Curupira, another Brazilian forest guardian. While both protect the forest and animals, they have different characteristics, methods, and regional variations. Understanding the Caipora requires examining both its Indigenous roots and its transformation through centuries of cultural exchange."
+      "summary": "The Caipora is one of Brazil's most important forest guardian spirits, rooted in Indigenous Tupi-Guarani mythology, who protects wildlife from hunters who violate rules of fair-play and punishes those who disrespect the forest.",
+      "full": "The Caipora is a powerful forest spirit and guardian of wildlife from Brazilian folklore, with deep roots in Tupi-Guarani Indigenous mythology. The name derives from Tupi, meaning 'inhabitant of the forest' or 'dweller of the woods.' As a protector of small game and wild animals, the Caipora punishes hunters who violate rules of fair play — particularly those who hunt pregnant females, take more than they need, or hunt on Fridays, Sundays, and religious holidays. The entity has markedly different physical descriptions across regions: in some traditions it appears as a dark-skinned, hairy, dwarf-like Indigenous child (caboclinho or caboclinha), while in other regions it manifests as a giant hairy man. In Ceará it is described as bristly-headed with sharp teeth and ember-like eyes; in Bahia as small and almost black; in Ilhéus as fair-skinned. The Caipora rides peccaries, tapirs, or other forest animals as mounts, wields a stick or spiny vine whip, and uses fireflies as scouts. It carries a pipe — allegedly made from human bone — and can be bribed with tobacco and cachaça liquor. The creature can shapeshift and is said to be able to resurrect slain animals. It causes 'caipórismo' — a curse of perpetual bad luck — on hunters who violate its rules. The Caipora is often confused with the Curupira, another Brazilian forest guardian, but they are distinct entities with different characteristics and regional variations. Its role has evolved into a symbol in contemporary Brazilian environmental movements."
     },
     "etymology": {
-      "origin": "Tupi-Guarani Indigenous traditions",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Tupi-Guarani Indigenous language of Brazil",
+      "meaning": "Ka'a (forest/woods) + pora (inhabitant/dweller) = 'inhabitant of the forest'",
+      "first_use": "Pre-colonial; first documented in written Portuguese colonial-era accounts"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Forest guardian spirit",
+      "subtype": "Wildlife protector / nature deity",
+      "variant": "Brazilian / South American"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "curupira", "name": "Curupira", "relationship": "similar", "description": "Another Brazilian forest guardian spirit with backward-facing feet; often confused with the Caipora" },
+      { "id": "saci", "name": "Saci", "relationship": "related", "description": "Brazilian trickster spirit also rooted in Tupi-Guarani mythology" },
+      { "id": "pe-de-garrafa", "name": "Pé de Garrafa", "relationship": "related", "description": "Brazilian forest spirit sometimes associated with the Caipora" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Dark skin", "description": "Typically depicted as dark-skinned; descriptions vary from almost black to fair depending on region", "frequency": "common" },
+        { "feature": "Hair or fur covered", "description": "Described as hairy or bristly in many regional traditions", "frequency": "common" },
+        { "feature": "Variable stature", "description": "Appears as either a dwarf-like child or a giant hairy man depending on regional tradition", "frequency": "always" },
+        { "feature": "Ember-like eyes", "description": "In Ceará tradition, described as having sharp teeth and eyes like burning embers", "frequency": "occasional" },
+        { "feature": "Pipe", "description": "Carries a pipe for smoking, allegedly made from human bone in some traditions", "frequency": "common" },
+        { "feature": "Riding mount", "description": "Rides peccaries, tapirs, or other forest animals", "frequency": "common" }
+      ],
+      "morphology": "Highly variable across regions; the Caipora may appear as a small dark child, a large hairy humanoid, or a shapeshifted animal. The child form (caboclinha or caboclinho) is most common in coastal and urban folklore retellings."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Can change form between child, giant, and various animal shapes", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Animal resurrection", "description": "Said to resurrect animals slain by hunters who violated its rules", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Causing caipórismo", "description": "Afflicts disrespectful hunters and fishermen with perpetual bad luck, making prey invisible or scarce", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "False tracks", "description": "Creates false animal tracks to lead hunters astray and spoil hunts", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Firefly scouts", "description": "Uses fireflies as scouts to monitor the forest and detect hunters", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Luring children", "description": "Allegedly lures children into rotting trees in some traditions", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["Amazon rainforest", "Atlantic Forest", "Brazilian cerrado", "forest and jungle regions of South America"],
+      "diet": "Not applicable (spirit entity); accepts offerings of tobacco and cachaça liquor",
+      "patterns": [
+        "Enforces hunting ethics and fair-play rules",
+        "Punishes hunters who take pregnant animals or take more than needed",
+        "Makes hunting forbidden on Fridays, Sundays, and religious holidays",
+        "Can be appeased with offerings of tobacco and cachaça",
+        "Protects wild game; despises salt and peppercorn in offerings"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Tupi-Guarani Indigenous traditions",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Found throughout Brazil, with regional variations across the Amazon rainforest, Atlantic Coast, Rio Grande do Sul, Santa Catarina, Minas Gerais, and Ceará. Also present in Argentine and Uruguayan folklore as a fire-breathing ghost variant.",
+      "continents": ["South America"],
+      "countries": ["Brazil", "Argentina", "Uruguay"],
+      "regions": [
+        "Amazon Basin",
+        "Bahia",
+        "Ceará",
+        "Ilhéus",
+        "Minas Gerais",
+        "Rio Grande do Sul",
+        "Santa Catarina"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Tupi-Guarani oral tradition, predating Portuguese colonization"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-colonial to present", "description": "Continuous presence in Tupi-Guarani oral tradition and Brazilian folk culture" }
+      ],
+      "seasonal_patterns": "Associated with hunting seasons; taboos are especially enforced on Fridays, Sundays, and religious holidays."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Tupi-Guarani Indigenous traditions",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Indigenous Tupi-Guarani mythology of Brazil. The Caipora is one of the most important pre-colonial spiritual entities of the Amazon and Atlantic Forest regions, reflecting Indigenous relationships with wildlife and forest ecology.",
+      "earliest_accounts": "Pre-colonial oral tradition; recorded in early Portuguese colonial-era accounts of Indigenous beliefs in the 16th and 17th centuries.",
+      "folklore_connections": "Shares the role of wildlife-protecting forest spirit with other South American traditions. Related to the Curupira (also a Tupi-Guarani forest guardian with different attributes) and distantly comparable to nature spirit traditions elsewhere. In Argentina and Uruguay the figure appears as a fire-breathing ghost."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-1500", "event": "Caipora tradition exists in Tupi-Guarani oral culture prior to Portuguese colonization of Brazil", "significance": "Original cultural context as wildlife guardian in Indigenous knowledge systems" },
+      { "date": "1500s", "event": "Portuguese colonizers record encounters with Tupi-Guarani beliefs about forest spirits including the Caipora", "significance": "First written documentation in European colonial records" },
+      { "date": "1800s", "event": "Brazilian Romanticism incorporates the Caipora into national literature alongside other folkloric figures", "significance": "Integration into broader Brazilian cultural identity" }
+    ],
+    "modern_era": "The Caipora remains a living figure in Brazilian popular culture, appearing in television shows, literature, and increasingly in environmental discourse as a symbol of wildlife protection. Its role as a forest guardian has made it a touchstone for Brazilian ecological and Indigenous rights movements."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +154,94 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Forest guardian spirit",
+        "description": "The Caipora is a genuine spiritual entity that enforces ecological balance in the forest, punishing those who violate natural law through supernatural means.",
+        "proponents": ["Tupi-Guarani oral tradition", "Brazilian folk belief practitioners"],
+        "evidence_cited": ["Widespread consistent accounts of caipórismo (bad luck) following disrespectful hunting", "Regional consistency of core protective role across widely separated communities"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Ecological knowledge encoding",
+        "description": "The Caipora myth encodes traditional ecological knowledge about sustainable hunting practices, enforcing social norms against overhunting through the threat of supernatural punishment.",
+        "proponents": ["Ethnobiologists", "Environmental anthropologists"],
+        "evidence_cited": ["The specific hunting rules enforced by the Caipora align with sustainable wildlife management principles", "Similar guardian-spirit traditions appear in many hunter-gatherer cultures worldwide"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Personification of forest ecology",
+        "description": "The Caipora is a cultural construction representing the unpredictability of hunting success, with bad outcomes attributed to supernatural punishment rather than natural variability.",
+        "proponents": ["Folklore scholars"],
+        "evidence_cited": ["No physical evidence of the entity", "Regional variations suggest independent local development of similar concepts"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Tupi-Guarani forest guardian tradition",
+        "Brazilian mixed colonial folklore (caboclo traditions)",
+        "Argentine and Uruguayan ghost tradition (fire-breathing variant)"
+      ],
+      "stories": [
+        "Hunters who offer tobacco and cachaça are allowed to succeed; those who violate rules are cursed with caipórismo",
+        "The Caipora rides a peccary through the forest at night, accompanied by firefly scouts",
+        "A hunter who sees the Caipora and does not flee is driven mad or cursed with perpetual bad luck"
+      ],
+      "beliefs": "The Caipora operates on a principle of reciprocity: respectful hunters who follow traditional protocols may succeed, while those who hunt excessively or disrespect the forest are punished. It is understood as a judge of hunter worthiness, comparable in function to Roman goddess Diana. The entity despises peppercorn and demands unflavored porridge as an offering in some traditions."
+    },
+    "indigenous": {
+      "cultures": ["Tupi-Guarani peoples", "Caboclo communities of the Amazon and Atlantic Forest"],
+      "significance": "A central figure in Tupi-Guarani cosmology representing the spiritual aspect of the forest and its animals. The Caipora encodes traditional rules about sustainable hunting and respect for nature that have been maintained across generations.",
+      "sensitivity_note": "The Caipora originates in living Indigenous traditions of the Tupi-Guarani peoples. Modern popular culture representations may diverge significantly from original spiritual meanings.",
+      "respect_guidelines": "Distinguish between the original Indigenous spiritual entity and later colonial and popular culture appropriations. Consult Indigenous sources and scholars when representing the traditional context."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Sítio do Picapau Amarelo series by Monteiro Lobato (features the Caipora in adaptation)",
+        "Referenced in numerous Brazilian environmental literature works"
+      ],
+      "film_tv": [
+        "Castelo Rá-Tim-Bum (Brazilian TV series) — features the Caipora",
+        "Sítio do Picapau Amarelo (TV adaptation)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Harry Potter universe: Castelobruxo, the Brazilian wizarding school, references the Caipora",
+        "Legend Quest (TV series) — investigated the Caipora"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ethnobiological and folklore studies of Tupi-Guarani traditions continue in Brazilian universities. The Caipora is studied as an example of traditional ecological knowledge encoded in folklore."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-caipora",
+      "type": "website",
+      "title": "Caipora",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Caipora",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
